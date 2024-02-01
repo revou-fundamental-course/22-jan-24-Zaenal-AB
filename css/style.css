@@ -86,6 +86,7 @@ br{
         clear: both;
     }
 
+    /* BAGIAN KANAN  */
 #body-area-div{
     background-color: rgba(231, 229, 229, 0.233);
     width: 55%;
@@ -107,10 +108,67 @@ br{
     text-align: center;
     font-style: italic;
     font-size: medium;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    
 }
 
-/* coba tambahkan  */
+.orang2::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+#icon1{
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-right: auto;
+    background-color:lightgrey;
+    margin-left: 20%;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+#bagiannama{
+    float: left;
+    margin-left:2% ;
+}
+
+#info{
+    font-size: 20px;
+}
+
+.penomoran12::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#no1{
+    background-color:lightgrey;
+    width: 45px;
+    min-height: 45px;
+    text-align: center;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 45px;
+    float: left;
+}
+
+#info1{
+    float: left;
+    min-height: 45px;
+    text-align: center;
+    line-height: 45px;
+    margin-left: 2%;
+}
+
+
+
+/* BAGIAN KIRI  */
 #aside-div{
     background-color: rgba(211, 211, 211, 0.226);
     width: 40%;
@@ -133,8 +191,49 @@ h5{
 
 }
 
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0px;
+}
+    
 
+.col-25 {
+    width: 100%;
+  }
+  
+  .col-75 {
+    width: 100%;
+  }
 
+  .button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  /* ====================================================== */
+
+  
 
 
 
